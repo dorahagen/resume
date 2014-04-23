@@ -1,0 +1,162 @@
+body {
+	background: #232843;
+}
+
+/* Basic Text Styles */
+
+h1 {
+	display: none;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	color: #3e68af;
+	font-size: 0.9em;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 1em;
+	margin-top: 2.5em;
+	margin-bottom: 0em;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	color: #9adc0c;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin-top: 1.2em;
+	margin-bottom: 0.2em;
+}
+
+h5 {
+	font-family: Georgia;
+	color: #d5d6d8;
+	font-size:0.8em;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 0.8em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	color: #d5d6d8;
+	font-size: 0.9em;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+}
+
+hr {
+	color: #3e68af;
+	border-color: #3e68af;
+	background-color: #3e68af;
+	margin: 0px 200px 20px 200px;
+}
+
+ul li {
+	font-family: Arial, sans-serif;
+	color: #d5d6d8;
+	font-size: 0.9em;
+	font-weight: normal;
+	line-height: 1.4em;
+}
+
+/* Link and Button Styles */
+
+a {
+	text-decoration: none;
+	color: #3e68af;
+}
+
+a:hover {
+	color: #9adc0c;
+}
+
+a.button {
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	padding: 10px;
+	background: #3e68af;	
+	font-family: Arial, sans-serif;
+	color: #d5d6d8;
+	font-size: 0.9em;
+	font-weight: normal;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+a.button:hover {
+	background: #9adc0c;
+	color: #232843;
+}
+
+/* Image Styles */
+
+img {
+	margin: 10px;
+}
+
+/* Section Styles */
+
+#container {
+	margin: auto;
+	width: 80%;
+	position: relative;
+}
+
+#header {
+	text-align: center;
+	top: 0px;
+	width: 100%;
+	border-bottom: 1px solid #29487c;
+	display: block;
+}
+
+#left {
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 0px 10px;
+	position: relative;
+}
+
+#middle {
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 0px 10px;
+	position: relative;
+}
+
+#right { 
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 0px 10px;
+	position: relative;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 800px) {
+	#left {
+		clear: both;
+		width: 100%;
+	}
+	#middle {
+		clear: both;
+		width: 100%;
+	}
+	#right {
+		clear: both;
+		width: 100%;
+	}
+}
+
+
